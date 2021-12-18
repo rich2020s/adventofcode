@@ -42,5 +42,5 @@ function solve(lines) {
   }
   console.log(oxygen)
   console.log(co2)
-  console.log(parseInt(oxygen, 2) * parseInt(co2, 2))
+  console.log(parseInt(oxygen, 2) * parseInt(co2, 2)) //4856080
 }

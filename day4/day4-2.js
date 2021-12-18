@@ -54,7 +54,7 @@ function solve(lines) {
       if (e !== 'X') sum += Number(e)
     }
   }
-  console.log(sum,bingoNumber,sum*bingoNumber)
+  console.log(sum*bingoNumber) //23541
 }
 
 function isBingo(arr) {

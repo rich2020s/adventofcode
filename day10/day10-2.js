@@ -38,11 +38,9 @@ function solve(lines) {
     let illegalIndex = line.search(illegalRegex)
     if (illegalIndex === - 1)  arr.push(line)
   }
-  console.log(arr)
   for (let str of arr) {
     let scoreSum = 0
     for (let i = str.length - 1; i >= 0 ; i--) {
-      console.log(scoreBoard[str[i]])
       scoreSum = scoreSum * 5 + scoreBoard[str[i]]
     }
     scoreArr.push(scoreSum)

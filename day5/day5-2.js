@@ -37,7 +37,6 @@ function day5() {
   for (let num in points) {
     if (points[num] - 1 > 0) sum++
   }
-console.log(points)
-  console.log(sum)
+  console.log(sum) //19374
 }
 day5()

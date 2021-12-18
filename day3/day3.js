@@ -35,5 +35,5 @@ function solve(lines) {
   }
   let gammaRate = parseInt(gamma, 2)
   let epsilonRate = parseInt(epsilon, 2)
-  console.log(gammaRate * epsilonRate)
+  console.log(gammaRate * epsilonRate) //3242606
 }
